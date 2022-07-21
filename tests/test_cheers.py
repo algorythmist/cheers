@@ -13,9 +13,6 @@ class CheersTestCase(unittest.TestCase):
         solutions = recursive2(15)
         print(solutions)
 
-    def test_explicit_diff(self):
-        print(explicit_diff(15))
-
     def test_explicit(self):
         print(explicit(15))
 
