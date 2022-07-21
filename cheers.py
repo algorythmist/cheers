@@ -25,7 +25,7 @@ def list_solutions_closed_form(number_of_guests: int) -> list:
 
 
 def solutions_in_table(number_of_guests: list) -> str:
-    content = '| Guests | Clinks |\n'
+    content = '| Guests | Clinks |\n| --- | --- |\n'
     for n in number_of_guests:
         content += f'| {n} | {number_of_clinks(n)} |\n'
     return content
