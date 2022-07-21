@@ -17,5 +17,5 @@ This can be done if the other guests pair up and cheers the new guest two at a t
 Therefore
 
 $$
-f(n+1) = ceil(n/2) + f(n)
+f(n+1) = \lceil(n/2)\rceil + f(n)
 $$
