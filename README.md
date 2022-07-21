@@ -36,7 +36,7 @@ $$
 f(n+1) = n +f(n-1)
 $$
 
-Using the initial conditions $$f(3) = 1$$, $$f(4) = 3$$, this can be solved explicitly:
+Using the initial conditions $f(3) = 1$, $f(4) = 3$, this can be solved explicitly:
 
 $$
 f(n) = (2n^2-1+(-1)^n)/8 - 1
