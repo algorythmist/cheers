@@ -17,7 +17,7 @@ This can be done if the other guests pair up and cheers the new guest two at a t
 Therefore
 
 $$
-f(n+1) = \lceiln/2\rceil + f(n)
+f(n+1) = \lceil n/2\rceil + f(n)
 $$
 
 It is possible to write this as a system of difference equations for even numbers and odd numbers:
@@ -36,7 +36,7 @@ $$
 f(n+1) = n +f(n-1)
 $$
 
-Using the initial conditions f(3) = 1, f(4) = 3, this can be solved explicitly:
+Using the initial conditions $$f(3) = 1$$, $$f(4) = 3$$, this can be solved explicitly:
 
 $$
 f(n) = (2n^2-1+(-1)^n)/8 - 1
