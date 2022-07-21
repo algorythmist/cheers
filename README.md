@@ -45,6 +45,7 @@ $$
 ### First Few Values
 
 | Guests | Clinks |
+| --- | --- |
 | 3 | 1 |
 | 4 | 3 |
 | 5 | 5 |
@@ -62,6 +63,7 @@ $$
 An interesting patterns arises for powers of 10
 
 | Guests | Clinks |
+| --- | --- |
 | 10 | 24 |
 | 100 | 2499 |
 | 1000 | 249999 |
